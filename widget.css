@@ -1,0 +1,29 @@
+/* Custom Bookio Widget Styling */
+
+/* Background color of widget/form */
+body, .widget-container, .bookio-widget, .bookio-widget * {
+    background-color: #342403 !important;
+}
+
+/* Text color */
+body, .widget-container, .bookio-widget, .bookio-widget * {
+    color: #f7c357 !important;
+}
+
+/* Radio buttons and active selections */
+.bookio-widget .selected, .bookio-widget input[type="radio"]:checked + label {
+    border-color: #f7c357 !important;
+    color: #f7c357 !important;
+}
+
+/* Buttons styling */
+.bookio-widget button, .bookio-widget .button, .bookio-widget input[type="submit"] {
+    background-color: #f7c357 !important;
+    color: #342403 !important;
+    border-radius: 6px !important;
+}
+
+/* Override borders */
+.bookio-widget, .bookio-widget * {
+    border-color: #f7c357 !important;
+}
