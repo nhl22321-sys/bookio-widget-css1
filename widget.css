@@ -1,29 +1,55 @@
-/* Custom Bookio Widget Styling */
+/* === Custom Bookio Styling === */
 
-/* Background color of widget/form */
-body, .widget-container, .bookio-widget, .bookio-widget * {
+/* Celé pozadie widgetu */
+.rk-app, .rk-app * {
     background-color: #342403 !important;
-}
-
-/* Text color */
-body, .widget-container, .bookio-widget, .bookio-widget * {
     color: #f7c357 !important;
 }
 
-/* Radio buttons and active selections */
-.bookio-widget .selected, .bookio-widget input[type="radio"]:checked + label {
+/* Hlavné kroky (čísla a nadpisy) */
+.rk-step__title, 
+.rk-step__number {
+    color: #f7c357 !important;
+}
+
+/* Výber služby - text a cena */
+.rk-service__name,
+.rk-service__price,
+.rk-service__duration {
+    color: #f7c357 !important;
+}
+
+/* Aktívna položka (vybraná služba) */
+.rk-selected,
+.rk-selected * {
     border-color: #f7c357 !important;
     color: #f7c357 !important;
+    background-color: transparent !important;
 }
 
-/* Buttons styling */
-.bookio-widget button, .bookio-widget .button, .bookio-widget input[type="submit"] {
+/* Všetky rádiové tlačidlá */
+input[type="radio"] + label {
+    color: #f7c357 !important;
+}
+
+/* Tlačidlá (ďalší krok, rezervovať, potvrdiť) */
+button,
+.rk-button,
+.rk-btn,
+.rk-btn-primary {
     background-color: #f7c357 !important;
     color: #342403 !important;
-    border-radius: 6px !important;
+    border-radius: 8px !important;
+    border: none !important;
 }
 
-/* Override borders */
-.bookio-widget, .bookio-widget * {
+/* Hover efekt tlačidiel */
+button:hover,
+.rk-btn-primary:hover {
+    opacity: 0.85 !important;
+}
+
+/* Ohraničenia */
+.rk-app * {
     border-color: #f7c357 !important;
 }
