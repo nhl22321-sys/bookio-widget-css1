@@ -1,0 +1,37 @@
+/* RakThai - Custom CSS pre Bookio Widget */
+body, .bookio-app-wrapper {
+    background-color: #4a3826 !important;
+}
+.bookio-app {
+    background-color: #5d4a35 !important;
+    color: #ffffff !important;
+}
+.service-list-item,
+.service-list-item-price,
+.bookio-step-label,
+.bookio-header-title {
+    color: #ffffff !important;
+}
+.bookio-step-number {
+    background-color: #e2a849 !important;
+    color: #4a3826 !important;
+}
+.service-list-item:hover {
+    background-color: #6d5945 !important;
+}
+.service-list-item.selected,
+.bookio-radio-input:checked + .bookio-radio-label:before {
+    border-color: #e2a849 !important;
+}
+.bookio-btn-primary {
+    background-color: #e2a849 !important;
+    border-color: #e2a849 !important;
+    color: #4a3826 !important;
+}
+.bookio-header-url,
+.bookio-btn-link {
+    color: #e2a849 !important;
+}
+.bookio-header-inner {
+    background-color: #5d4a35 !important;
+}
