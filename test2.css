@@ -1,0 +1,10 @@
+/* RakThai - TEST: Ak toto nefunguje, Bookio VOBEC nenacitava subor! */
+
+/* Cielime na vsetko, co ma pozadie, a nastavime zelenu */
+#bookio-iframe *,
+#bookio-iframe body,
+#bookio-iframe .bookio-app-wrapper,
+#bookio-iframe .bookio-app {
+    background-color: #00ff00 !important; /* Jasná, neprehliadnuteľná zelená */
+    color: black !important; /* Pre kontrolu aj text */
+}
