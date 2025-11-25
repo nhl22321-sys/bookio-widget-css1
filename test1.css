@@ -1,0 +1,6 @@
+/* RakThai - TESTOVACÍ KÓD */
+
+/* Pokúsime sa zmeniť úplne základný element na niečo neprehliadnuteľné */
+#bookio-iframe * {
+    background-color: green !important; /* Všetko bude zelené */
+}
