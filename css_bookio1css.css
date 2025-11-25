@@ -1,0 +1,65 @@
+/* RakThai - Finálny Custom CSS pre Bookio Widget (zvýšená priorita) */
+
+/* 1. HLAVNÉ POZADIE (Tmavo hnedá: #4a3826) */
+/* Používame #bookio-iframe pre prebitie základných farieb */
+#bookio-iframe body,
+#bookio-iframe .bookio-app-wrapper {
+    background-color: #4a3826 !important;
+    color: #ffffff !important;
+}
+
+/* 2. KARTA S OBSAHOM/SLUŽBAMI (Svetlejšia hnedá: #5d4a35) */
+#bookio-iframe .bookio-app {
+    background-color: #5d4a35 !important;
+    color: #ffffff !important;
+}
+
+/* 3. TEXT A POPISY */
+/* Zabezpečíme čitateľnosť bieleho textu na tmavom pozadí */
+#bookio-iframe .service-list-item,
+#bookio-iframe .service-list-item-price,
+#bookio-iframe .bookio-step-label,
+#bookio-iframe .bookio-header-title,
+#bookio-iframe p,
+#bookio-iframe label,
+#bookio-iframe .bookio-form-group {
+    color: #ffffff !important;
+}
+
+/* 4. AKCIA / TLAČIDLÁ / ZVÝRAZNENIE (Zlatožltá: #e2a849) */
+
+/* Číslo kroku (1, 2, 3) */
+#bookio-iframe .bookio-step-number,
+#bookio-iframe .bookio-step.active .bookio-step-number {
+    background-color: #e2a849 !important;
+    color: #4a3826 !important; /* Tmavohnedé číslo na žltom kruhu */
+}
+
+/* Hover efekt na služby */
+#bookio-iframe .service-list-item:hover {
+    background-color: #6d5945 !important;
+}
+
+/* Aktívne vybrané služby a rádiá */
+#bookio-iframe .service-list-item.selected,
+#bookio-iframe .bookio-radio-input:checked + .bookio-radio-label:before {
+    border-color: #e2a849 !important;
+}
+
+/* Primárne tlačidlá (Ďalej, Rezervovať) */
+#bookio-iframe .bookio-btn-primary {
+    background-color: #e2a849 !important;
+    border-color: #e2a849 !important;
+    color: #4a3826 !important; /* Tmavohnedý text na tlačidle */
+}
+
+/* Odkazy (linky) */
+#bookio-iframe .bookio-header-url,
+#bookio-iframe .bookio-btn-link {
+    color: #e2a849 !important;
+}
+
+/* Hlavička Bookio widgetu */
+#bookio-iframe .bookio-header-inner {
+    background-color: #5d4a35 !important;
+}
